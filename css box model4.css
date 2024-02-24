@@ -1,0 +1,19 @@
+h1{
+    background-color: black;
+    color: yellow;
+    
+    padding: 50px;
+    text-align: center;
+    
+}
+p{
+    background-color:grey;
+    color: black;
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+    
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+}
