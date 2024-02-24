@@ -1,0 +1,10 @@
+h1{
+    color: yellow;
+}
+div{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin-top: 5px;
+    padding: 50px;
+}
