@@ -1,0 +1,27 @@
+<style>
+    div#mydiv{
+    width: 130px;
+    height: 130px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; //*count can be given 1,2,3,and so on..*/
+    /*if direction is in reverse,it will be rotate in reverse only.we are given alternate here.so it rotates in both directions*//
+    animation-direction: reverse;
+    }
+    
+    @keyframes example {
+        0% {background-color:red;left: 0px;top: 0px;}
+        25%{background-color:yellow;left: 200px;top: 0px;}
+        50% {background-color: palevioletred;left: 200px;top: 200px;}
+        75% {background-color: brown;left: 0px;top: 200px;}
+        100% {background-color: magenta;left: 0px;top: 0px;}
+    }
+    </style>
+    
+    <div id="mydiv">
+    
+    
+    </div>
